@@ -11,10 +11,10 @@ const ValuetoDIRHEM = document.querySelector("#dirhem")
 const btnCalculate = document.querySelector("#Change")
 
 const Change = () => {
-    ValuetoAZN.innerText = currentvalue.value * DollarToAzn
-    ValuetoTL.innerText = currentvalue.value * DollarToTl
-    ValuetoEURO.innerText = currentvalue.value * DollarToEuro
-    ValuetoDIRHEM.innerText = currentvalue.value * DollarToDirhem
+    ValuetoAZN.innerText = (currentvalue.value * DollarToAzn).toFixed(2)
+    ValuetoTL.innerText = (currentvalue.value * DollarToTl).toFixed(2)
+    ValuetoEURO.innerText = (currentvalue.value * DollarToEuro).toFixed(2)
+    ValuetoDIRHEM.innerText = (currentvalue.value * DollarToDirhem).toFixed(2)
 }
 
 
