@@ -14,4 +14,5 @@ const Change = () => {
 
 
 
-btnCalculate.addEventListener("click",Change)
+//btnCalculate.addEventListener("click",Change)
+currentvalue.addEventListener("input",Change)
