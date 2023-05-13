@@ -20,9 +20,9 @@ body{
 #heading{
     text-align: center;
     font-size:40px;
-    font-weight: 500;
+    font-weight: 700;
     color: royalblue;
-    padding: 40px;
+    padding: 30px;
     border-bottom: 1px solid #a2b8fa;
 }
 
@@ -72,7 +72,7 @@ section{
     color: #fff;
     background-color:#a2b8fa ;
     border: 2px solid #fff;
-    transition: .6s;
+    transition: .3s;
 }
 ul{
     display: flex;
